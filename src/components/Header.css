@@ -1,0 +1,75 @@
+/* Header container */
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.container-fluid {
+  max-width: 1200px;
+    margin: 0 auto;
+}
+/* Logo styling */
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+/* Navigation links */
+.header-nav {
+  gap: 1.5rem;
+}
+
+.header-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header-nav .nav-link:hover {
+  color: #3498db !important;
+}
+
+/* User photo */
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Dropdown toggle styling */
+.dropdown-toggle {
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Mobile menu adjustments */
+@media (max-width: 992px) {
+  .header-nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .dropdown-menu {
+    position: static !important;
+    transform: none !important;
+    margin-top: 0.5rem;
+    border: none;
+    background-color: #343a40;
+  }
+
+  .dropdown-item {
+    color: white !important;
+    padding: 0.5rem 1rem;
+  }
+
+  .dropdown-item:hover {
+    background-color: #495057 !important;
+  }
+}

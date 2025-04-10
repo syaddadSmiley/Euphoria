@@ -1,0 +1,31 @@
+.card-home {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card-home:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-home-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-home-content {
+    padding: 15px;
+  }
+  
+  .card-home-content h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }

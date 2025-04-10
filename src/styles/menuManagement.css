@@ -1,0 +1,46 @@
+#menu-management {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .list-group-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  @media (max-width: 576px) {
+    .list-group-item {
+      padding: 10px;
+    }
+  
+    .category-section h5 {
+      font-size: 1.2rem;
+    }
+  
+    .list-group-item .d-flex {
+      flex-direction: column;
+    }
+  
+    .d-flex .btn {
+      margin-bottom: 10px;
+    }
+  }

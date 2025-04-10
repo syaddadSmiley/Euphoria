@@ -1,0 +1,29 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1;
+  }
+  
+  .content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  /* Overriding any Bootstrap grid system */
+  #sidebar .row, 
+  #sidebar .col, 
+  #sidebar .container, 
+  #header .row, 
+  #header .col, 
+  #header .container {
+    display: block !important;
+    width: auto !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }

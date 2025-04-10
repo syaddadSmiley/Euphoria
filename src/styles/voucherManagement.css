@@ -1,0 +1,186 @@
+/* Styles for Voucher Management Page */
+
+.voucher-management {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .actions-voucher-management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  .search-bar-wrapper {
+    flex: 1;
+    margin-right: 20px; /* Space between search bar and button */
+  }
+  
+  .search-bar-voucher-management {
+    width: 100%;
+  }
+  
+  .add-button-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Adds space when wrapped */
+  }
+  
+  .add-voucher-button-voucher-management {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-voucher-button-voucher-management:hover {
+    background-color: #0056b3;
+  }
+  
+  .voucher-list-voucher-management {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .voucher-item-voucher-management {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px; /* Increase border radius for a softer appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow for a card-like effect */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  }
+  
+  .voucher-info-card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .voucher-info-details {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  
+  .voucher-info-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .voucher-label {
+    font-weight: bold;
+    width: 150px; /* Fixed width to align labels */
+    color: #555;
+  }
+  
+  .voucher-value {
+    color: #333;
+  }
+  
+  .voucher-info-actions {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px; /* Adds spacing for smaller screens */
+  }
+  
+  .edit-button-voucher-management,
+  .delete-button-voucher-management {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+  }
+  
+  .edit-button-voucher-management {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .edit-button-voucher-management:hover {
+    background-color: #e0a800;
+  }
+  
+  .delete-button-voucher-management {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button-voucher-management:hover {
+    background-color: #c82333;
+  }
+  
+  /* Mobile Styles - Media Queries */
+  @media (max-width: 768px) {
+    .actions-voucher-management {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .search-bar-wrapper {
+      margin-right: 0; /* Remove margin for better mobile alignment */
+      margin-bottom: 10px; /* Add spacing below the search bar */
+    }
+  
+    .add-button-wrapper {
+      align-items: stretch;
+      width: 100%;
+    }
+  
+    .voucher-item-voucher-management {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .voucher-info-card {
+      flex-direction: column;
+    }
+  
+    .voucher-info-actions {
+      align-items: center;
+      margin-top: 20px; /* Add spacing to separate from details */
+    }
+  
+    .edit-button-voucher-management,
+    .delete-button-voucher-management {
+      width: 100%;
+      max-width: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .voucher-label {
+      width: 100px; /* Decrease label width for smaller screens */
+      font-size: 0.9rem; /* Reduce font size for labels */
+    }
+  
+    .voucher-value {
+      font-size: 0.9rem; /* Reduce font size for values */
+    }
+  
+    .voucher-item-voucher-management {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  
+    .edit-button-voucher-management,
+    .delete-button-voucher-management {
+      width: 100%;
+      margin-top: 5px; /* Add a smaller margin between buttons */
+    }
+  }
+  
