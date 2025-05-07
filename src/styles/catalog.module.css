@@ -1,0 +1,46 @@
+.btn-warning {
+    background-color: #facc15; /* yellow-400 */
+    border-color: #facc15;
+    color: #000;
+  }
+  .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+    background-color: #eab308; /* yellow-500 */
+    border-color: #eab308;
+    color: #000;
+  }
+  .btn-outline-warning {
+    border-color: #facc15;
+    color: #facc15;
+  }
+  .btn-outline-warning:hover {
+    background-color: #facc15;
+    color: #000;
+  }
+  .form-control-lg.bg-gray-900::placeholder {
+    color: #9ca3af; /* gray-400 */
+  }
+  .form-control-lg.bg-gray-900:focus {
+    background-color: #111827; /* gray-900 */
+    color: white;
+    border-color: #facc15;
+    box-shadow: 0 0 0 0.25rem rgba(250, 204, 21, 0.25);
+  }
+  .text-yellow-400 {
+    color: #facc15;
+  }
+  .bg-yellow-400 {
+    background-color: #facc15;
+  }
+  .border-yellow-400 {
+    border-color: #facc15 !important;
+  }
+  .border-yellow-400::after {
+    border-color: #facc15;
+  }
+  .hover\:shadow-yellow-500\/20:hover {
+    --tw-shadow-color: rgba(234, 179, 8, 0.2);
+    --tw-shadow: var(--tw-shadow-colored);
+  }
+  .have-to-yellow.border-yellow-400 {
+    border-color: #facc15 !important;
+  }

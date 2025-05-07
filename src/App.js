@@ -8,6 +8,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import PrivateComponent from './components/private-component';
 import Home from './pages/home';
+import Catalog from './pages/catalog';
+import EventDetailPage from './pages/eventDetailPage';
 import Login from './pages/login';
 import Dashboard from './pages/dashboard';
 import MenuManagement from './pages/dashboard/MenuManagement';
@@ -20,6 +22,8 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path='/catalog' element={<Catalog />} />
+            <Route path="/event/:eventId" element={<EventDetailPage />} />
           </Routes>
         </main>
         <Footer />

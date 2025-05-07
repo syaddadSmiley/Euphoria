@@ -1,3 +1,5 @@
+
+
 :root {
   --primary-color: #4A90E2;    /* Soft Blue */
   --secondary-color: #7ED321;  /* Mild Green */
@@ -8,6 +10,16 @@
   --text-medium-gray: #9B9B9B; /* Medium Gray */
   --highlight-color: #F8E71C;  /* Warm Yellow */
   --error-color: #D0021B;      /* Soft Red */
+  --theme-yellow: #FFC107;
+  --theme-yellow-light: #FFD700; /* Brighter yellow for titles */
+  --theme-yellow-dark: #e0a800;
+  --theme-black: #000000;
+  --theme-bg-dark: #121212; /* Main page background */
+  --theme-card-bg: #212529; /* Bootstrap's dark, for cards */
+  --theme-card-border: #333333;
+  --theme-text-light: #FFFFFF;
+  --theme-text-muted: #adb5bd;
+  --theme-text-on-yellow: #000000;
 }
 
 body {
