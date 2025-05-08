@@ -94,7 +94,7 @@ const EventDetailPage = () => {
                 variant="top" 
                 src={event.imageUrl || 'https://placehold.co/600x400/000000/333333?text=No+Image'} 
                 alt={event.title}
-                className="object-cover" // Tailwind class for object-fit: cover
+                className="object-contain" // Tailwind class for object-fit: cover
                 style={{maxHeight: '300px'}}
               />
               <Card.Body>
